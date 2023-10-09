@@ -11,7 +11,7 @@ import SwiftUI
 struct RectangleAreaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: RectangleViewModel())
         }
     }
 }
