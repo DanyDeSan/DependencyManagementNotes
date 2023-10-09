@@ -8,10 +8,13 @@
 import Foundation
 import ShapeAreas
 
-class CircleViewModel {
+class CircleViewModel: ObservableObject {
+    
+    @Published var resultArea: Double = 0
+    
     let calculator = ShapeAreaCalculator()
     
-    func caculateArea() {
-        calculator.circleArea(radius: 2)
+    func caculateArea(radius: CGFloat) {
+        resultArea = calculator.circleArea(radius: Double(radius))
     }
 }

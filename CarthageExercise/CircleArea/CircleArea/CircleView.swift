@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var diameter: CGFloat = 100
+    @ObservedObject var viewModel: CircleViewModel
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Circle()
+                .stroke(.blue,lineWidth: 10)
+                .frame(width: diameter, height: diameter)
+                .padding()
+            Text("Area \(viewModel.resultArea)")
+            Text("Diameter: \(diameter)")
+            Slider(value: $diameter,
+                   in: 100...300) { isEditing in
+                if !isEditing {
+                    viewModel.caculateArea(radius: diameter/2)
+                }
+            }
         }
         .padding()
+        .onAppear(perform: {
+            viewModel.caculateArea(radius: diameter/2)
+        })
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: CircleViewModel())
 }
