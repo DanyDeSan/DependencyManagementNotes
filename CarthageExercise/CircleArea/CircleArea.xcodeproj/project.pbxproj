@@ -11,8 +11,6 @@
 		8A7F14BB2ACF5AC90012962A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F14BA2ACF5AC90012962A /* CircleView.swift */; };
 		8A7F14BD2ACF5ACB0012962A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7F14BC2ACF5ACB0012962A /* Assets.xcassets */; };
 		8A7F14C02ACF5ACB0012962A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7F14BF2ACF5ACB0012962A /* Preview Assets.xcassets */; };
-		8AEEF11A2ACF5F0300164969 /* ShapeAreas.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEEF1192ACF5F0300164969 /* ShapeAreas.xcframework */; };
-		8AEEF11B2ACF5F0300164969 /* ShapeAreas.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEEF1192ACF5F0300164969 /* ShapeAreas.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8AEEF11E2ACF5F4A00164969 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEF11D2ACF5F4A00164969 /* CircleViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8AEEF11B2ACF5F0300164969 /* ShapeAreas.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +33,6 @@
 		8A7F14BA2ACF5AC90012962A /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		8A7F14BC2ACF5ACB0012962A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A7F14BF2ACF5ACB0012962A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8AEEF1192ACF5F0300164969 /* ShapeAreas.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ShapeAreas.xcframework; path = Carthage/Build/ShapeAreas.xcframework; sourceTree = "<group>"; };
 		8AEEF11D2ACF5F4A00164969 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEEF11A2ACF5F0300164969 /* ShapeAreas.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +52,6 @@
 			children = (
 				8A7F14B72ACF5AC90012962A /* CircleArea */,
 				8A7F14B62ACF5AC90012962A /* Products */,
-				8AEEF1182ACF5F0300164969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,14 +81,6 @@
 				8A7F14BF2ACF5ACB0012962A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8AEEF1182ACF5F0300164969 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8AEEF1192ACF5F0300164969 /* ShapeAreas.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
