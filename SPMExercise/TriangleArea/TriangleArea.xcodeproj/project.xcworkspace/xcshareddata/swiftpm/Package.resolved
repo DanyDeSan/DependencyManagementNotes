@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "privateshapeareas",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DanyDeSan/PrivateShapeAreas",
+      "state" : {
+        "revision" : "ea1951a4434a4c60b91f952bc1fff8ea4a6860a5",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

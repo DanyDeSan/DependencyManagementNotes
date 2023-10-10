@@ -11,7 +11,7 @@ import SwiftUI
 struct TriangleAreaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: TriangleViewModel())
         }
     }
 }
