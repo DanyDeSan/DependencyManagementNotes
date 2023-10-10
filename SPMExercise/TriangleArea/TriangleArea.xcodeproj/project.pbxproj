@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A7864182AD4D1B900A8CB10 /* TriangleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7864172AD4D1B900A8CB10 /* TriangleViewModel.swift */; };
-		8A78641B2AD4D2C200A8CB10 /* ShapeAreas in Frameworks */ = {isa = PBXBuildFile; productRef = 8A78641A2AD4D2C200A8CB10 /* ShapeAreas */; };
 		8A78641D2AD4D31A00A8CB10 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78641C2AD4D31A00A8CB10 /* Triangle.swift */; };
 		8AAFA3862AD49666001BA765 /* TriangleAreaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFA3852AD49666001BA765 /* TriangleAreaApp.swift */; };
 		8AAFA3882AD49666001BA765 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFA3872AD49666001BA765 /* TriangleView.swift */; };
@@ -31,26 +30,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A78641B2AD4D2C200A8CB10 /* ShapeAreas in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A7864192AD4D2C200A8CB10 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8AAFA3792AD49666001BA765 = {
 			isa = PBXGroup;
 			children = (
 				8AAFA3842AD49666001BA765 /* TriangleArea */,
 				8AAFA3832AD49666001BA765 /* Products */,
-				8A7864192AD4D2C200A8CB10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +90,6 @@
 			);
 			name = TriangleArea;
 			packageProductDependencies = (
-				8A78641A2AD4D2C200A8CB10 /* ShapeAreas */,
 			);
 			productName = TriangleArea;
 			productReference = 8AAFA3822AD49666001BA765 /* TriangleArea.app */;
@@ -131,7 +120,6 @@
 			);
 			mainGroup = 8AAFA3792AD49666001BA765;
 			packageReferences = (
-				8A7864162AD4B48F00A8CB10 /* XCRemoteSwiftPackageReference "PrivateShapeAreas" */,
 			);
 			productRefGroup = 8AAFA3832AD49666001BA765 /* Products */;
 			projectDirPath = "";
@@ -368,25 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8A7864162AD4B48F00A8CB10 /* XCRemoteSwiftPackageReference "PrivateShapeAreas" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/DanyDeSan/PrivateShapeAreas";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8A78641A2AD4D2C200A8CB10 /* ShapeAreas */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8A7864162AD4B48F00A8CB10 /* XCRemoteSwiftPackageReference "PrivateShapeAreas" */;
-			productName = ShapeAreas;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8AAFA37A2AD49666001BA765 /* Project object */;
 }

@@ -6,16 +6,12 @@
 //
 
 import Foundation
-import ShapeAreas
-
 
 final class TriangleViewModel: ObservableObject {
     
-    @Published var triangleArea: Double = 0.0
-    
-    var calculator = ShapeAreaCalculator()
+    @Published var triangleArea: Double = 0.0    
     
     func calculateTriangleArea(widht: CGFloat, height: CGFloat) {
-        triangleArea = calculator.triangleArea(width: widht, height: height)
+
     }
 }
