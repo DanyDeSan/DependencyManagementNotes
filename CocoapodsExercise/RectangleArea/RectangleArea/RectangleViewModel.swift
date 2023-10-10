@@ -6,16 +6,12 @@
 //
 
 import Foundation
-import ShapeAreas
 
 final class RectangleViewModel: ObservableObject {
     
     @Published var rectangleArea: Double = 0
-    
-    var calculator: ShapeAreaCalculator = ShapeAreaCalculator()
-    
-    
+
     func calculateRectangleArea(width: CGFloat, height: CGFloat) {
-        rectangleArea = calculator.rectangleArea(width: Double(width), height: Double(height))
+        
     }
 }
