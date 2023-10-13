@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C6A26A0649D8800A4B2687D /* Pods_RectangleArea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429D988A66D5815F36F35680 /* Pods_RectangleArea.framework */; };
 		8AAFA36A2AD48388001BA765 /* RectangleAreaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFA3692AD48388001BA765 /* RectangleAreaApp.swift */; };
 		8AAFA36C2AD48388001BA765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFA36B2AD48388001BA765 /* ContentView.swift */; };
 		8AAFA36E2AD48389001BA765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFA36D2AD48389001BA765 /* Assets.xcassets */; };
@@ -15,12 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		429D988A66D5815F36F35680 /* Pods_RectangleArea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectangleArea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852B56F90CF2561154217D0F /* Pods-RectangleArea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleArea.release.xcconfig"; path = "Target Support Files/Pods-RectangleArea/Pods-RectangleArea.release.xcconfig"; sourceTree = "<group>"; };
 		8AAFA3662AD48388001BA765 /* RectangleArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFA3692AD48388001BA765 /* RectangleAreaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAreaApp.swift; sourceTree = "<group>"; };
 		8AAFA36B2AD48388001BA765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AAFA36D2AD48389001BA765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AAFA3702AD48389001BA765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AAFA3772AD4860A001BA765 /* RectangleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewModel.swift; sourceTree = "<group>"; };
+		9E8F8A8F1BF0EBD36E213C81 /* Pods-RectangleArea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleArea.debug.xcconfig"; path = "Target Support Files/Pods-RectangleArea/Pods-RectangleArea.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6A26A0649D8800A4B2687D /* Pods_RectangleArea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				8AAFA3682AD48388001BA765 /* RectangleArea */,
 				8AAFA3672AD48388001BA765 /* Products */,
+				F016B859B29637F0477A7C4F /* Pods */,
+				A30179CC9A568EA8A1DD26A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A30179CC9A568EA8A1DD26A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429D988A66D5815F36F35680 /* Pods_RectangleArea.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F016B859B29637F0477A7C4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8F8A8F1BF0EBD36E213C81 /* Pods-RectangleArea.debug.xcconfig */,
+				852B56F90CF2561154217D0F /* Pods-RectangleArea.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AAFA3742AD48389001BA765 /* Build configuration list for PBXNativeTarget "RectangleArea" */;
 			buildPhases = (
+				58DDDFFC146467DF44CF7B63 /* [CP] Check Pods Manifest.lock */,
 				8AAFA3622AD48388001BA765 /* Sources */,
 				8AAFA3632AD48388001BA765 /* Frameworks */,
 				8AAFA3642AD48388001BA765 /* Resources */,
+				A1B3AF4F5792BE093CD30776 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58DDDFFC146467DF44CF7B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RectangleArea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B3AF4F5792BE093CD30776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RectangleArea/Pods-RectangleArea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RectangleArea/Pods-RectangleArea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RectangleArea/Pods-RectangleArea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AAFA3622AD48388001BA765 /* Sources */ = {
@@ -270,6 +339,7 @@
 		};
 		8AAFA3752AD48389001BA765 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8F8A8F1BF0EBD36E213C81 /* Pods-RectangleArea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +369,7 @@
 		};
 		8AAFA3762AD48389001BA765 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852B56F90CF2561154217D0F /* Pods-RectangleArea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

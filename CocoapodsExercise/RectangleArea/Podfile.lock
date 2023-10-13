@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.8.0)
+  - lottie-ios (4.3.3)
+  - ShapeArea (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - ShapeArea (from `https://github.com/DanyDeSan/ShapeAreas.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  ShapeArea:
+    :git: https://github.com/DanyDeSan/ShapeAreas.git
+
+CHECKOUT OPTIONS:
+  ShapeArea:
+    :commit: 08c504894e7812bcd2271a2bb2026f69b0a58c5a
+    :git: https://github.com/DanyDeSan/ShapeAreas.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
+  ShapeArea: a3f170f4b46c07b52e5f9bb0f4d7b5c1a1c0e874
+
+PODFILE CHECKSUM: d4eb6222defd314418d228118abc81b06d4f75a6
+
+COCOAPODS: 1.11.3
